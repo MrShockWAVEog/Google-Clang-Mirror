@@ -37,7 +37,7 @@ jobs:
           fi
 
       - name: Upload to GitHub Releases
-        uses: softprops/action-gh-release@v2.3.2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: clang-${{ env.version }}-aosp
           name: AOSP Clang ${{ env.version }}
